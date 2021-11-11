@@ -20,10 +20,11 @@ const lesson3 = {
 
 
 
-// 3. Crie uma função para mostrar o tamanho de um objeto.
+// 4. Crie uma função para listar os valores de um objeto.
+// Essa função deve receber um objeto como parâmetro.
 
-function objectLength(object) {
-  return Object.keys(object).length;
+function showValues(object) {
+  return Object.values(object);
 }
 
-console.log(objectLength(lesson2));
+console.log(showValues(lesson2));
