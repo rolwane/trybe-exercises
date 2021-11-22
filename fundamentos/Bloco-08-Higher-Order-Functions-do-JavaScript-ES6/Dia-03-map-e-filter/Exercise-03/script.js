@@ -7,5 +7,4 @@ function fantasyOrScienceFiction(books) {
   return books.filter((book) => book.genre === 'Fantasia' || book.genre === 'Ficção Científica');
 }
 
-
-console.log(fantasyOrScienceFiction(books));
+fantasyOrScienceFiction(books);
